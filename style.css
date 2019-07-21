@@ -155,7 +155,7 @@
   }
   .project-item {
     padding: 1em 0.5em;
-    margin: 0.5em;
+    margin: 1.5em;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
     color: white;
@@ -230,7 +230,7 @@ footer button {
     padding: 0 2em;
   }
   .project-item {
-    margin: 2em;
+    margin: 2.5em 4.5em;
   }
   .project-image {
     width: 45%;
