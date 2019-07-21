@@ -213,7 +213,7 @@ footer button {
   }
 }
 
-@media screen and (min-width:1020px){
+@media screen and (min-width:1025px){
   body{
     font-size: 24px;
   }
@@ -230,7 +230,7 @@ footer button {
     padding: 0 2em;
   }
   .project-item {
-    margin: 2.5em 4.5em;
+    margin: 3em 4.5em;
   }
   .project-image {
     width: 45%;
