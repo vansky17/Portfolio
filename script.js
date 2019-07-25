@@ -4,8 +4,6 @@ let overlay = $('#overlay');
 let overlayText =  overlay.find('p');
 let imgTechWriting = $('<img src="img/image1.png" alt="Tech writing workflow" width="100%"/>');
 let imgWebDev = $('<img src="img/image2.gif" alt="Example interactive user guide" width="100%"/>');
-let vidTutorial= $(
-    );
 /* Highlight work items */
 function handleWorkItems(){
     changeWorkItem();
