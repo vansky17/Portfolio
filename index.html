@@ -10,7 +10,7 @@
 <body>
     <nav role="navigation">
         <div class="hamburger-menu">
-            <input type="checkbox" id="hamburger">
+            <input type="checkbox" id="hamburger" >
             <label for="hamburger" class="hamburger">
                 <span class="line"></span>
                 <span class="line"></span>
@@ -18,9 +18,6 @@
             </label>
         </div> 
         <div class="menu">
-			<!-- Avatar -->
-		<!--<div id="avatar">
-			</div> -->
 			<div>
 				<ul>
 					<li>
@@ -40,41 +37,62 @@
 					</li>
 				</ul>
 			</div>
-		</div> 
+        </div> 
+        <div class="divider-menu"></div>
+        <div class="mobile-menu slideDown">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#work">Work</span></a>
+                </li>
+                <li>
+                    <a href="#aboutme">About Me</span></a>
+                </li>						
+                <li>
+                    <a href="#projects">Projects</span></a>
+                </li>						
+                <li>
+                    <a href="#contact">Contact</span></a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <main role="main">
-        <header id="home" role="banner">
-            <h1>Hi there!</h1>
-            <h3>My name is Ivan Stefanov. Welcome to my portfolio page!</h3>
-            <div class="divider-light"></div>
-            <p>Technical Writing | Web Development | Graphics & Web Design | Video Editing</p>
-            <p>Bringing together technical communication and web technology</p>
+        <header  id="home" role="banner">
+            <h1 class="slideDown">Hi there!</h1>
+            <h3 class="slideDown">My name is Ivan Stefanov. Welcome to my portfolio page!</h3>
+            <div class="divider-light slideUp"></div>
+            <p class="slideDown">Technical Writing | Web Development | Graphics & Web Design | Video Editing</p>
+            <p class="slideDown">Bringing together technical communication and web technology</p>
         </header>
 
         <section id="work">
             <h2>WORK</h2>
+            <p class="info-tap">Tap icon for info</p>
             <ul class="work-container">
                 <li class="work-item">
                     <img src="img/icon1.png" alt="Technical Writing">
                     <p>Technical Writing </p>
                     <div class="divider"></div>
-                    <p>Web Help. Responsive. Interactive. Mobile</p>
+                    <p class="motto">Web Help. Responsive. Interactive. Mobile</p>
                 </li>
                 <li class="work-item">
-                    <img src="img/icon2.png" alt="Web development">
+                    <img src="img/icon2.png" alt="Web Development">
                     <p>Web Development</p>
                     <div class="divider"></div>
-                    <p>JavaScript. HTML5. CSS3</p>
+                    <p class="motto">JavaScript. HTML5. CSS3</p>
                 </li>
                 <li class="work-item">
-                    <img src="img/icon3.png" alt="Play video">
+                    <img src="img/icon3.png" alt="Play Video">
                     <p>Video Tutorials</p>
                     <div class="divider"></div>
-                    <p>A picture is worth a thousand words. A video - ten thousand more.</p>
+                    <p class="motto">A picture is worth a thousand words. A video - ten thousand more.</p>
                 </li>
             </ul>
         </section>
-
+       
         <section id="aboutme" class="about">
             <h2>ABOUT ME</h2>
                 <p>I am a technical writer with 10+ years of experiance in technical communication. My passion of providing 
@@ -91,31 +109,44 @@
                     <p>HTML-based user manuals written with FrameMaker and ePublisher. Interactivity, responsiveness
                         and dynamic generation of technical content added with JavaScript, jQuery and Ajax.
                     </p>
-                    <img class="project-image" src="img/image2.gif" alt="">
+                    <img class="project-image" src="img/image2.gif" alt="Example workflow">
                 </li>
                 <li class="project-item">
                     <h2>Web Frontend for Documentation Management</h2>
                     <p>HTML page for viewing and downloading technical documents.
-                        Table view generated with jQuery and Json.
+                        Table view generated with jQuery and JSON.
                     </p>
-                    <img class="project-image" src="img/image5.gif" alt="">
+                    <img class="project-image" src="img/image5.gif" alt="Example user guide">
                 </li>
                 <li class="project-item">
                     <h2>VR Quiz App</h2>
                     <p>A fun quiz to test your readiness for the next dimension.
                         Made with vanilla JavaScript and jQuery.
                     </p>
-                    <img class="project-image" src="img/image4.png" alt="">
+                    <img class="project-image" src="img/image4.png" alt="Example VR quiz">
                     <button><a href="https://vansky17.github.io/VR-Quiz-App/"> See live on Github</a></button>
                 </li>
             </ul>
         </section>
 
     </main>
+     <!-- Overlay -->
+     <div id="overlay">
+        <div id="popup">
+           <div id="close">&times</div>
+           <p></p>
+        </div>
+     </div>
+      <!-- Overlay end -->
     <footer id="contact" role="content-info">
         <h2>Contact</h2>
-        <button><a href="mailto:ivan.stefanov@gmx.de">Email</a></button>
-        <button><a href="https://github.com/vansky17" target="_blank">Github</a></button>
+        <button><a href="mailto:ivan.stefanov@gmx.de">Send Email</a></button>
+        <button><a href="https://github.com/vansky17" target="_blank">Github Account</a></button>
     </footer>
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </html>
