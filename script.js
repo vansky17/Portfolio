@@ -79,7 +79,6 @@ function handleAutoScroll() {
     $('a[href^="#"]').on('click', function(event) { 
         let scrollTarget = $(this.getAttribute('href')); 
         if( scrollTarget.length ) {
-
             $('html, body').stop().animate({scrollTop: scrollTarget.offset().top }, 800);   
         }
     });

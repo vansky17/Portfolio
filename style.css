@@ -170,6 +170,7 @@ p.info-tap {
 }
 .about p {
   padding: 0 0.5em;
+  font-size: .9em;
 }
 
 /* Projects */
@@ -195,9 +196,8 @@ button {
   display: block;
   margin: 0.5em auto;
   background: rgba(0, 0, 0, 0.7);
-  font-size: 1em;
   color:white; 
-  padding: 0.5em;  
+  padding: 0.2em;  
   border: none;
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.7);
@@ -206,6 +206,7 @@ button {
 
 button a {
   text-decoration: none;
+  font-size: 0.8em;
   color: white;
   transition: all ease-in 0.3s;
 }
@@ -372,6 +373,7 @@ animation-duration: .8s;
   footer button {
     width: 25%;
   }
+  footer button a{
+    font-size: .9em;
+  }
 }
-
-
