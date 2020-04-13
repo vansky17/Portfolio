@@ -41,7 +41,7 @@ function handleViewClick(){
             overlayText.before(imgWebDev);
         } else if ($(this).find('img').attr('alt')==="Play Video") {
             overlayText.before(
-                '<video controls="" autoplay muted width="90%"><source src="https://pta.netflixstudios.com/_assets/DolbyVision_Working_With.mp4" type="video/mp4"></video>'
+                '<video controls="" autoplay muted width="90%"><source src="https://nflx-pta-prod-us-east-1.s3.amazonaws.com/class/95/widget/163/1580249570854-DolbyVision_Working_With.mp4?AWSAccessKeyId=ASIASFT37IGOYPGJDAGE&Expires=1586807383&Signature=CHfdqqAN0eExx%2FEPDVLVz%2B45iXA%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEsaCXVzLWVhc3QtMSJHMEUCIQDs6ko%2Bh1%2BeZrtHOA8%2FFinH%2FxVn2SAtLCWzJUEFYLnQrwIgS7NiTpjKf9nSFkvK8McgJlFSovg5HHWVp0uH9Aq%2BBhYq5wEIZBAAGgwxNDk1MTAxMTE2NDUiDKlGVcDgbuuwP34lSCrEAUBskIicaW15rlw%2FRrViJPnj%2FucdsRXrc6hskbaL%2F2eM1mw2Vt%2BkkXgxBi%2BOlpHTixmIBF05wmWbi%2FI0Dekeeybaj2A0VprKScYzxPXliTeU2mnyeK8rPQWVaq1WTDdRPvSMWq996uY0gLHmsJ6QZE1KXlrJbXE1zHCPaIOil2q7nhuAhvRN9h5hTwzD8sbRjMuBQxT04PouCwmxeFGuzTeIWRSkf6BNVOL08Yr60QdarOC2TTx4RlSgPVt2H%2FASrz24KEkwsu7S9AU64wEJdCusdL8azqKxZ5wiF1UJdD1QsZRPAUjeZ7jH6r%2FbLhg34qZWTNZgsD2%2B1EgunpaTC%2FWj2sI0AkdX9aI1nOQAJI%2F1eCD0pfhIvgTlsPKygui4tFNjJRuNIu3WT3xVRNrojfQvho6YaEHfjUWMcYOHq%2FGlpiaYY4jK5ij8fWJVQqm2nV%2Fj74qmdnRBbU%2BM4M%2BBn%2F5oVM4T7mkPlv6JigGS2da4XRRPrAnzap82xnpyHhZES1tuJikJjhLlV0pjBuEbbjGEvpl7pgLmDttRu6VTDDw9vfnF52Apd%2BvhSd57MLUTMQ%3D%3D" type="video/mp4"></video>'
             );
         }
         let motto = $(this).find('.motto').text();

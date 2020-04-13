@@ -213,7 +213,9 @@ button a {
   button:hover {
   border: 1px solid cornflowerblue;
 }
-
+.bold{
+  font-weight: 700;
+}
 /* Footer */
 footer {
 background:
@@ -324,7 +326,7 @@ animation-duration: .8s;
     display: block;
   }
 }
-@media screen and (min-width:1058px){
+@media screen and (min-width:1158px){
   body{
     font-size: 24px;
   }
@@ -358,6 +360,12 @@ animation-duration: .8s;
   .project-image {
     width: 45%;
     margin-top: 6px;
+    box-shadow: inset 0 0 30px cornflowerblue;
+    transition: all ease-in 0.2s;
+  }
+  .project-image:hover {
+    opacity: 0.9;
+    transform: scale(1.05); 
   }
   .project-item p {
     width: 45%;
