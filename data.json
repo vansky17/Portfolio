@@ -1,0 +1,129 @@
+
+{
+    "timeline":
+    {
+        "headline":"Curriculum Vitae",
+        "type":"default",
+		"startDate":"1976,0",
+
+		"text":"<i></i>",
+		"asset":
+        {
+            "media":"",
+            
+            "caption":""
+        },
+        "date": [
+        {
+                "startDate":"1976,0",
+                "headline":"Geboren 05. Dezember, 1976",
+                "text":"in Burgas, Bulgarien",
+                "asset":
+                {
+                    "media":"assets/img/burgas2.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1991,0",
+                "headline":"Deutschsprachiges Gymnasium „Johann Wolfgang von Goethe, Burgas“",
+                "text":"1991 - 1996.",
+                "asset":
+                {
+                    "media":"assets/img/Gymnasium.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1996,0",
+                "headline":"Studium der Germanistik (Schwerpunk Sprachwissenschaften) an der Universität „Kliment Ochridski“ in Sofia",
+                "text":"1996 - 2000",
+                "asset":
+                {
+                    "media":"assets/img/Sofia_University.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2001,0",
+                "headline":"Studium an der Universität Hildesheim in Fachrichtung „Internationale Fachkommunikation“. <br>Abschluss Dipl.-Fachübersetzer",
+                "text":"2001 - 2007",
+                "asset":
+                {
+                    "media":"assets/img/Uni.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,0",
+                "headline":"Werkstudent in der Abteilung „Dokumentation und Übersetzungen“ bei der Viscom AG in Hannover",
+                "text":"Zwischenprüfungen geschafft - los geht's!<br>2005 - 2007",
+                "asset":
+                {
+                    "media":"assets/img/Werkstudi.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,01",
+                "headline":"Diplomarbeit bei Viscom AG",
+                "text":"Terminologienormung als Kernbereich für die Entwicklung einer Kontrollierten Sprache",
+                "asset":
+                {
+                    "media":"assets/img/diplomarbeit.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,0",
+                "headline":"Technischer Redakteur in der Abteilung „Dokumentation und Übersetzungen“ bei der Viscom AG in Hannover",
+                "text":"2007 bis 2013",
+                "asset":
+                {
+                    "media":"assets/img/Viscom.png",
+                    "credit":"<a href='http://viscom.com/en/index_ww.php?cc=enww'>Viscom AG, Hannover</a>",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2009,0",
+                "headline":"Berufsbegleitendes Fernlehrgang „Geprüfter Java-Programmierer” an der SGD Studiengemeinschaft Darmstadt",
+                "text":"2009 - 2011",
+                "asset":
+                {
+                    "media":"assets/img/java-logo.png",
+                    "credit":"<a href='http://www.sgd.de/'>Studiengemeinschaft Darmstadt</a>",
+                    "caption":""
+                }
+            },
+             {
+                "startDate":"2012,0",
+                "headline":"Berufliche Interessen",
+                "text":"JavaScript, CSS, HTML5, Interaktive e-Anleitungen",
+                "asset":
+                {
+                    "media":"assets/img/LoveScript2.png",
+                    "credit":"",
+                    "caption":""
+                }
+               },
+            {
+                "startDate":"2014,0",
+                "headline":"Technischer Redakteur (Englisch) bei Rohde & Schwarz GmbH & Co. KG",
+                "text":"2014 bis heute",
+                "asset":
+                {
+                    "media":"assets/img/RS-DVS_Hannover_300dpi.png",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}

@@ -105,9 +105,10 @@ header {
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.85)
+    rgba(0, 0, 0, 0.8)
   ), 
-  url(https://cdn.pixabay.com/photo/2019/02/10/17/10/notebook-3987701_960_720.jpg) repeat; 
+  /* url(https://cdn.pixabay.com/photo/2019/02/10/17/10/notebook-3987701_960_720.jpg) repeat;  */
+  url(img/imagebg_01.jpg) repeat; 
   color: white;
   background-size: cover;
   background-position: center;
@@ -234,6 +235,14 @@ linear-gradient(
   margin-top: 1em;
 }
   footer button:hover {
+  box-shadow: inset 0 0 30px cornflowerblue;
+}
+.cv-button {
+  box-shadow: inset 0 0 17px gray;
+  width: 15%;
+  margin-top: 1em;
+}
+.cv-button:hover {
   box-shadow: inset 0 0 30px cornflowerblue;
 }
 
