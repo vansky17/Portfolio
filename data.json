@@ -113,7 +113,8 @@
                     "caption":""
                 }
                },
-            {
+
+               {
                 "startDate":"2014,0",
                 "headline":"Technischer Redakteur (Englisch) bei Rohde & Schwarz GmbH & Co. KG",
                 "text":"2014 bis heute",
@@ -123,7 +124,19 @@
                     "credit":"",
                     "caption":""
                 }
-            }
+                },
+                 {
+                "startDate":"2025,0",
+                "headline":"Berufliche Interessen",
+                "text":"Industrial XR/VR",
+                "asset":
+                {
+                    "media":"assets/img/xrvr.png",
+                    "credit":"",
+                    "caption":""
+                }
+                }
+            
         ]
     }
 }
