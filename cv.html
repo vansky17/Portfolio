@@ -11,12 +11,22 @@
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" rel="stylesheet">
         
+        <style>
+            @media screen and (max-width: 670px) {
+                #back-to-main {
+                    padding: 20px 40px !important;
+                    font-size: 1.2em !important;
+                }
+            }
+        </style>
+        
         <!-- [if lt IE 9]>
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif] -->
     </head>
     
     <body>
+		<a id="back-to-main" href="index.html" style="position: fixed; top: 20px; left: 20px; z-index: 100; padding: 10px 20px; background: rgba(0,0,0,0.7); color: white; text-decoration: none; border: 1px solid cornflowerblue; border-radius: 3px; transition: all ease-in 0.3s;" onmouseover="this.style.boxShadow='inset 0 0 17px cornflowerblue'" onmouseout="this.style.boxShadow='none'">← Back to Main</a>
 		<div id="timeline">
 		</div>
 

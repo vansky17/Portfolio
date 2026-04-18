@@ -41,7 +41,11 @@ function handleViewClick(){
             overlayText.before(imgWebDev);
         } else if ($(this).find('img').attr('alt')==="Play Video") {
             overlayText.before(
-                '<video controls="" autoplay muted width="90%"><source src="https://userdocsmanager.s3.us-east-2.amazonaws.com/DolbyVision_Working_With.mp4" type="video/mp4"></video>'
+                '<video controls autoplay width="90%"><source src="https://userdocsmanager.s3.us-east-2.amazonaws.com/DolbyVision_Working_With.mp4" type="video/mp4"></video>'
+            );
+        } else if ($(this).find('img').attr('alt')==="Industrial XR/VR") {
+            overlayText.before(
+                '<video controls autoplay width="90%"><source src="https://userdocsmanager.s3.us-east-2.amazonaws.com/XR_Industrial_Workflow.mp4" type="video/mp4"></video>'
             );
         }
         let motto = $(this).find('.motto').text();

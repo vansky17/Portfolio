@@ -214,6 +214,9 @@ button a {
   button:hover {
   border: 1px solid cornflowerblue;
 }
+  button:hover {
+  border: 1px solid cornflowerblue;
+}
 .bold{
   font-weight: 700;
 }
@@ -347,15 +350,15 @@ animation-duration: .8s;
   }
   .work-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
   p.info-tap {
     display: none;
   }
   .work-item {
-    max-width:31%;
-    min-width:31%;
+    max-width: 45%;
+    min-width: 45%;
   }
   #popup {
     width: 100%;

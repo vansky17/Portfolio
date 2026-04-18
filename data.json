@@ -59,28 +59,6 @@
                 }
             },
             {
-                "startDate":"2005,0",
-                "headline":"Werkstudent in der Abteilung „Dokumentation und Übersetzungen“ bei der Viscom AG in Hannover",
-                "text":"Zwischenprüfungen geschafft - los geht's!<br>2005 - 2007",
-                "asset":
-                {
-                    "media":"assets/img/Werkstudi.png",
-                    "credit":"",
-                    "caption":""
-                }
-            },
-            {
-                "startDate":"2007,01",
-                "headline":"Diplomarbeit bei Viscom AG",
-                "text":"Terminologienormung als Kernbereich für die Entwicklung einer Kontrollierten Sprache",
-                "asset":
-                {
-                    "media":"assets/img/diplomarbeit.png",
-                    "credit":"",
-                    "caption":""
-                }
-            },
-            {
                 "startDate":"2007,0",
                 "headline":"Technischer Redakteur in der Abteilung „Dokumentation und Übersetzungen“ bei der Viscom AG in Hannover",
                 "text":"2007 bis 2013",
@@ -125,6 +103,18 @@
                     "caption":""
                 }
                 },
+                 {
+                "startDate":"2018,0",
+                "headline":"React Web Development",
+                "text":"Experimentieren mit React-Anwendungen für die technische Dokumentation",
+                "asset":
+                {
+                    "media":"assets/img/react.png",
+                    "credit":"",
+                    "caption":""
+                }
+                },
+
                  {
                 "startDate":"2025,0",
                 "headline":"Berufliche Interessen",
